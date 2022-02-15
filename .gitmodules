@@ -1,0 +1,3 @@
+[submodule "public/assets/transparent-textures"]
+	path = public/assets/transparent-textures
+	url = https://github.com/mike-hearn/transparent-textures.git
