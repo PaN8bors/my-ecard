@@ -2,6 +2,8 @@ import DefaultCard, { ImportCard } from './Card';
 import Customize from './Customize';
 import './App.css';
 
+
+
 export default function App() {
   let app;
   if (window.location.pathname.length > 1) {
@@ -24,5 +26,7 @@ export default function App() {
       </div>
     );
   }
+
+
   return app;
 }
