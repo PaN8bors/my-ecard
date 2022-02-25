@@ -4,7 +4,7 @@
  * module then handles the user's inputs and generates a shareable link upon
  * clicking the share button.
  */
-import "./Customize.css";
+import "./YouSee.css";
 
 /**
  * The ICONS array holds all of the options that the user has when choosing an
@@ -152,7 +152,7 @@ export function deserialize(encoded) {
  * This renders the Customize panel.
  * @returns {ReactElement} The customize card panel component
  */
-export default function Customize() {
+export default function YouSee() {
   let i = 0;
   const colorOpts = [];
   for (const [name] of COLORS) {
@@ -165,7 +165,7 @@ export default function Customize() {
   }
 
   return (
-    <div className="customization">
+    <div className="youSee">
 
       {/* Greeting Message Input Text Box */}
       <input

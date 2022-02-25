@@ -1,6 +1,41 @@
-.app {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
+.some-page-wrapper {
+    justify-content: space-evenly;
+    /* background-color: #8ecae6; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.style-card {
+    margin-top: -150px;
+    height: 100px;
+    text-align: center;
+    font-family: -apple-system, Roboto, sans-serif;
+    color: #fb8500;
+    font-size: x-large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+.you-see {
+    margin-top: -350px;
+    height: 100px;
+    text-align: center;
+    font-family: -apple-system, Roboto, sans-serif;
+    color: #fb8500;
+    font-size: large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }

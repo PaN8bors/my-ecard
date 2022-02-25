@@ -1,5 +1,5 @@
-.customization {
-    margin-top: -350px;
+.youSee {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -9,7 +9,7 @@
     border: solid black 5px;
 }
 
-.customization 
+.youSee 
 input, input::placeholder, 
 select, 
 textarea, textarea::placeholder {
